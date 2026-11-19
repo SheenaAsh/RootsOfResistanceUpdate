@@ -1,1 +1,8 @@
-# RootsOfResistanceUpdate
+# ROOTS: What We Refuse to Lose
+A standalone browser RPG. Extract all files together and open index.html. No installation, external libraries, or API keys. Upload the four files to the root of a new GitHub repository, then Settings > Pages > Deploy from a branch > main / root. For itch.io upload the ZIP as an HTML browser game.
+
+Move with WASD/arrows, the touch directional pad, or tap the map. E interacts, Q cycles tools, Space uses the tool, J opens the journal, R rests. Follow journal objectives to advance eras. At home, walk to the letter. At plots use Sample first; if flagged, interact to remediate. Plant, water, rest, repeat for three watered nights. The depot provides supplies and paid shifts; the water station refills water. Evidence comes from archives, industrial records and soil samples. Community trust comes from listening at the hall. Save uses browser local storage.
+
+This is an original fictional educational simulation, not a quantitative environmental model or a reenactment of a real family's life. Credits and simplified remediation outcomes are invented. Real planting on contaminated land requires qualified investigation and appropriate cleanup. Cleaner energy and toxic pollution controls are distinct. Further reading: https://www.epa.gov/heatislands and https://www.epa.gov/superfund and https://www.epa.gov/toxics-release-inventory-tri-program.
+
+Implementation: vanilla JS Canvas, CSS, local storage; no Phaser dependency. Art is procedural, with no external assets. The three eras are quest phases on a shared map; no NPC schedules or building collision system. Audio consists of interaction tones. Browser game, not native mobile app.
